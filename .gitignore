@@ -1,3 +1,7 @@
+# Credentials
+connect-personal-api-key
+connect-personal-api-bearer-token.json
+
 # Byte-compiled / optimized / DLL files
 __pycache__/
 *.py[codz]
