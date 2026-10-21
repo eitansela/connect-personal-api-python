@@ -1,6 +1,6 @@
 # Garmin Connect Personal API Client
 
-A small Python client for reading data from Garmin's Personal API. It is a
+A small Python client for reading data from [Garmin's Personal API](https://developer.garmin.com/gc-developer-program/personal/personal-api). It is a
 concrete example of how to query Garmin data using Personal API
 authentication, and other projects can reuse its parts independently:
 
@@ -293,7 +293,9 @@ listed on the top-level interactive menu; see
 [Interactive Mode](#interactive-mode) for how to reach them interactively.
 
 Wrappers are added as a convenience and may lag behind new endpoints available
-through Personal API. Use `get()` for endpoints that don't have a wrapper;
+through Personal API. See the
+[Personal API Swagger documentation](https://developer.garmin.com/gc-developer-program/personal/swagger-docs/)
+for the full endpoint reference. Use `get()` for endpoints that don't have a wrapper;
 see [Call an endpoint without a wrapper](#call-an-endpoint-without-a-wrapper).
 
 | Python wrapper | CLI command | HTTP request |
@@ -371,3 +373,9 @@ Tests use HTTP test doubles and do not require credentials or network access.
 
 Copyright 2026 Garmin Ltd. or its subsidiaries. Distributed under the Apache
 2.0 License. See [LICENSE](LICENSE) for the complete license text.
+
+## Links
+
+- [Garmin Connect web](https://connect.garmin.com/)
+- [Garmin Connect Personal API overview](https://developer.garmin.com/gc-developer-program/personal/personal-api)
+- [Personal API Swagger documentation](https://developer.garmin.com/gc-developer-program/personal/swagger-docs/)
