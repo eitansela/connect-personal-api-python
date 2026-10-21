@@ -369,13 +369,13 @@ pytest
 
 Tests use HTTP test doubles and do not require credentials or network access.
 
+## Links
+
+- [Garmin Connect Personal API Tokens](https://connect.garmin.com/app/settings/personalApiToken)
+- [Garmin Connect Personal API overview](https://developer.garmin.com/gc-developer-program/personal/personal-api)
+- [Personal API Swagger documentation](https://developer.garmin.com/gc-developer-program/personal/swagger-docs/)
+  
 ## License
 
 Copyright 2026 Garmin Ltd. or its subsidiaries. Distributed under the Apache
 2.0 License. See [LICENSE](LICENSE) for the complete license text.
-
-## Links
-
-- [Garmin Connect web](https://connect.garmin.com/)
-- [Garmin Connect Personal API overview](https://developer.garmin.com/gc-developer-program/personal/personal-api)
-- [Personal API Swagger documentation](https://developer.garmin.com/gc-developer-program/personal/swagger-docs/)
