@@ -1,0 +1,8 @@
+{
+  "mcpServers": {
+    "garmin": {
+      "command": "/Users/eitansela/Dev/GitHub/connect-personal-api-python/.venv/bin/python",
+      "args": ["-m", "garmin_personal_api.mcp_server"]
+    }
+  }
+}
